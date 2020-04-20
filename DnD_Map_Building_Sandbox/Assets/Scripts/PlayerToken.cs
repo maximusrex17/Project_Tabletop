@@ -38,7 +38,7 @@ public class PlayerToken : NetworkBehaviour
     public void SetPlayerClassBarbarian()
     {
         if (m_PlayerToken != null)
-        {
+        {            
             GameObject token = Instantiate(m_PlayerToken, new Vector3(0.0f, 0.125f, 0.0f), Quaternion.AngleAxis(180.0f, Vector3.up));
             token.GetComponent<Renderer>().sharedMaterial = m_PlayerClass[0];
         }
@@ -142,6 +142,8 @@ public class PlayerToken : NetworkBehaviour
             token.GetComponent<Renderer>().sharedMaterial = m_PlayerClass[11];
         }
     }
+
+    
 
     public void SetPlayerClassWizard()
     {

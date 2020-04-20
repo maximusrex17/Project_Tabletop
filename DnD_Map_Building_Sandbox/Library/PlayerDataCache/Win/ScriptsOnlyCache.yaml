@@ -8,11 +8,6 @@ ScriptsOnlyBuild:
     - TokenController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -32,7 +27,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Networking.NetworkManagerHUD
     - UnityEngine.Networking.NetworkTransform
   sceneClasses:
-    Assets/Scenes/Token Moving Sandbox.unity:
+    Assets/Scenes/Networking/Token Moving Sandbox.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -60,37 +55,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11168}
     - Class: 114
-      Script: {instanceID: 11340}
+      Script: {instanceID: 11338}
     - Class: 114
-      Script: {instanceID: 11370}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11420}
+      Script: {instanceID: 11418}
     - Class: 114
-      Script: {instanceID: 11466}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 11528}
+      Script: {instanceID: 11526}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 11870}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 12224}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12916}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13270}
+      Script: {instanceID: 13268}
     - Class: 114
-      Script: {instanceID: 13344}
+      Script: {instanceID: 13342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -442,7 +437,7 @@ ScriptsOnlyBuild:
     className: PlatformSpecificContent
   - hash:
       serializedVersion: 2
-      Hash: 265cf27ba050d55ff33a8acab4ded6c0
+      Hash: 67b6a6289f0be4403d3a904a49bf0923
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkLobbyManager
@@ -544,7 +539,7 @@ ScriptsOnlyBuild:
     className: NetworkCallbacks
   - hash:
       serializedVersion: 2
-      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
+      Hash: 26c840239062e42d4c35ca0027cd2a22
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkManager
@@ -946,5 +941,5 @@ ScriptsOnlyBuild:
     className: AutoMobileShaderSwitch
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Token Moving Sandbox.unity
-  playerPath: D:/Git Projects/Project_Tabletop/Builds/v0.1/DnD_Map_Building_Sandbox.exe
+  - Assets/Scenes/Networking/Token Moving Sandbox.unity
+  playerPath: D:/Git Projects/Project_Tabletop/Project_Tabletop/DnD_Map_Building_Sandbox/Builds/v0.2/DnD_Map_Building_Sandbox.exe

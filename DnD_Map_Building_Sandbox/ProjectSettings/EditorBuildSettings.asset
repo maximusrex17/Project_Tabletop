@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Token Moving Sandbox.unity
+    path: Assets/Scenes/Networking/Token Moving Sandbox.unity
     guid: 0492fd843a3f74b49a2657112a0cc248
   m_configObjects: {}

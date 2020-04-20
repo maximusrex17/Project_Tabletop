@@ -110,6 +110,16 @@ namespace UnityEngine.Networking
 
         static INetworkTransport s_ActiveTransport = new DefaultNetworkTransport();
 
+        // Joseph Gill Variables Start
+        public Material[] classMaterials;
+        [SyncVar]
+        int m_classIndex;
+
+
+        // Joseph Gill Variables End
+
+
+
         // properties
         /// <summary>
         /// The network port currently in use.
@@ -1505,7 +1515,21 @@ namespace UnityEngine.Networking
         public virtual void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
         {
             OnServerAddPlayerInternal(conn, playerControllerId);
+            
         }
+
+        // Joseph Gill Code Start
+
+        public void SetPlayerTokenClass(int classIndex)
+        {
+            m_classIndex = classIndex;
+        }
+
+        //public virtual void OnServerAddPlayer(NetworkConnection conn, short playerControllerID)
+        //{
+        //    var player = (GameObject)GameObject.Instantiate(playerPrefab, playerSpawnPos, Quaternion.AngleAxis(180.0f, Vector3.up));
+        //    player.GameObject.GetComponent<Renderer>().sharedMaterial = classMaterials[m_classIndex];
+        //}
 
         void OnServerAddPlayerInternal(NetworkConnection conn, short playerControllerId)
         {
